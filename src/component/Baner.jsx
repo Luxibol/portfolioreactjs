@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import banerImage from '../../pictures/banner.jpg'
+import banerImage from '../pictures/banner.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

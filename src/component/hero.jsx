@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button, Image } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from 'react-bootstrap';
 import MyDynamicallyCenteredModal from './Modal'
 
 const Hero = () => {

@@ -1,17 +1,17 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 
 import "./style.css";
 
-import Home from './pages/jsx/Home';
-import Services from './pages/jsx/Services';
-import Portfolio from './pages/jsx/Portfolio';
-import Contact from './pages/jsx/Contact';
-import Ln from './pages/jsx/Ln';
-import Footer from './pages/js/Footer'
+import Home from './pages/Home';
+import Services from './pages/Services';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Ln from './pages/Ln';
+import Footer from './component/Footer'
 
-import NavigationBar from './pages/js/Navigationbar';
+import NavigationBar from './component/Navigationbar';
 
 export default function App() {
     return (
