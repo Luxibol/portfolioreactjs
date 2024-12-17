@@ -1,0 +1,19 @@
+.custom-hr {
+    border: none;
+    height: 4px; 
+    width: 30%; 
+    max-width: 200px; 
+    background-color: #007bff; 
+    margin: 10px auto; 
+    opacity: 1;
+    margin-top: 0em;
+    margin-bottom: 2.5em;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #efefef;
+    transition: transform 0.3s ease;
+    transition: background-color 0.3s ease;
+    transform: scale(1.03);
+}
