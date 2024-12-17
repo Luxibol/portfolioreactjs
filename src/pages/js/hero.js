@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-
+import MyDynamicallyCenteredModal from './Modal'
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="hero-content text-center">
             <h1 className="hero-title">Bonjour, je suis John Doe</h1>
             <h2 className="hero-subtitle">Développeur web full stack</h2>
-            <Link class="nav-link active" to="/services"><Button variant="btn btn-danger">En savoir plus</Button></Link>
+            <MyDynamicallyCenteredModal/>
           </div>
         </Col>
       </Row>
@@ -19,7 +19,7 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero; 
 
 
 

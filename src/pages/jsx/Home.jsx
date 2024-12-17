@@ -1,8 +1,12 @@
 import React from "react";
-import Hero from '../hero';
-import MultipleProgressBars from '../Progress'
-import { Container, Row, Col, Card, ProgressBar, Button, Footer, Nav, Image } from 'react-bootstrap';
-import monImage from '../john-doe-about.jpg'
+import Hero from '../js/hero';
+import MultipleProgressBars from '../js/Progress'
+import { Container, Row, Col, Card, ProgressBar, Button, Footer, Nav, Image} from 'react-bootstrap';
+import monImage from '../..//pictures/john-doe-about.jpg'
+
+
+
+
 
 
 
@@ -39,6 +43,7 @@ const Home = () => {
                     </Col>
                     </Row>
                     </Container>
+                    
         </div>
     )
 }
